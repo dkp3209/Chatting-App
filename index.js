@@ -64,3 +64,5 @@ const port = 8000 || process.env.port;
 server.listen(port, () => {
     console.log(`Servern is running on port ${port}`)
 });
+
+module.exports = app;
